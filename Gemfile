@@ -34,7 +34,7 @@ gem 'sassc-rails', '>= 2.1.0'
 gem "paperclip", "~> 6.0.0"
 gem 'jquery-rails'
 gem 'xmlrpc'
-gem 'aws-sdk', '~> 2.3'
+gem 'aws-sdk', '< 2.0'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
