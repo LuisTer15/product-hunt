@@ -29,11 +29,9 @@ gem 'jbuilder', '~> 2.5'
 gem 'bcrypt', '~> 3.1.7'
 gem 'gravatar-ultimate'
 gem 'annotate'
-
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'sassc-rails', '>= 2.1.0'
+gem "paperclip", "~> 6.0.0"
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
