@@ -32,6 +32,8 @@ gem 'annotate'
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'sassc-rails', '>= 2.1.0'
 gem "paperclip", "~> 6.0.0"
+gem 'jquery-rails'
+gem 'xmlrpc'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
@@ -41,7 +43,6 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
-  gem 'jquery-rails'
 end
 
 group :development do
