@@ -35,6 +35,7 @@ gem "paperclip", "~> 6.0.0"
 gem 'jquery-rails'
 gem 'xmlrpc'
 gem 'aws-sdk', '< 2.0'
+gem 'figaro'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
